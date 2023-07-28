@@ -13,7 +13,7 @@
 <body>
       <section>
 
-            <header class="shadow-sm d-flex flex-wrap sticky-top align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom bg-purple animate__animated animate__bounce">
+            <header class="shadow-sm d-flex flex-wrap sticky-top align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom bg-purple ">
                   <div class="container">
                         <div class="col-md-3 mb-2 mb-md-0">
                               <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
@@ -37,9 +37,17 @@
       <section id="home">
             <div class="container-fluid">
                   <div class="row ">
-                        <div class="col-12 col-md-6">
-                              <div class="card">
-                                    <p>ini foto</p>
+                        <div class="col-12 col-md-6 text-center">
+                              <div class="text-center">
+
+                                    <div class="z-3 position-absolute ps-5 rounded-3">
+                                          <img class="animate__animated animate__backInLeft" src="img/foto.png" style="width: 300px;" alt="">
+                                    </div>
+                                    <div class="animate__animated animate__flip">
+                                          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="#380637" d="M57.7,-49.8C70.8,-44.6,74.7,-22.3,65.1,-9.6C55.5,3,32.3,6.1,19.2,20.1C6.1,34.2,3,59.2,-5.3,64.5C-13.6,69.7,-27.2,55.3,-31.6,41.2C-35.9,27.2,-31.1,13.6,-32.1,-1.1C-33.2,-15.7,-40.2,-31.5,-35.8,-36.7C-31.5,-42,-15.7,-36.7,3.3,-40C22.3,-43.3,44.6,-55.1,57.7,-49.8Z" transform="translate(100 100)" />
+                                          </svg>
+                                    </div>
                               </div>
                         </div>
                         <div class="col-12 col-md-6">
